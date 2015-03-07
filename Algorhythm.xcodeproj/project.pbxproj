@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4040490C1AAB9AF900FAC0E8 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4040490B1AAB9AF900FAC0E8 /* PlaylistDetailViewController.swift */; };
+		4040490E1AABB61A00FAC0E8 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4040490D1AABB61A00FAC0E8 /* MusicLibrary.swift */; };
+		404049101AABB71A00FAC0E8 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4040490F1AABB71A00FAC0E8 /* Playlist.swift */; };
 		4043BE611AAAA43B00F8EE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4043BE601AAAA43B00F8EE3B /* AppDelegate.swift */; };
 		4043BE631AAAA43B00F8EE3B /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4043BE621AAAA43B00F8EE3B /* PlaylistMasterViewController.swift */; };
 		4043BE661AAAA43B00F8EE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4043BE641AAAA43B00F8EE3B /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		4040490B1AAB9AF900FAC0E8 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		4040490D1AABB61A00FAC0E8 /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		4040490F1AABB71A00FAC0E8 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		4043BE5B1AAAA43B00F8EE3B /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4043BE5F1AAAA43B00F8EE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4043BE601AAAA43B00F8EE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 				4043BE601AAAA43B00F8EE3B /* AppDelegate.swift */,
 				4043BE621AAAA43B00F8EE3B /* PlaylistMasterViewController.swift */,
 				4040490B1AAB9AF900FAC0E8 /* PlaylistDetailViewController.swift */,
+				4040490D1AABB61A00FAC0E8 /* MusicLibrary.swift */,
+				4040490F1AABB71A00FAC0E8 /* Playlist.swift */,
 				4043BE641AAAA43B00F8EE3B /* Main.storyboard */,
 				4043BE671AAAA43B00F8EE3B /* Images.xcassets */,
 				4043BE691AAAA43B00F8EE3B /* LaunchScreen.xib */,
@@ -218,6 +224,8 @@
 				4040490C1AAB9AF900FAC0E8 /* PlaylistDetailViewController.swift in Sources */,
 				4043BE631AAAA43B00F8EE3B /* PlaylistMasterViewController.swift in Sources */,
 				4043BE611AAAA43B00F8EE3B /* AppDelegate.swift in Sources */,
+				4040490E1AABB61A00FAC0E8 /* MusicLibrary.swift in Sources */,
+				404049101AABB71A00FAC0E8 /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
