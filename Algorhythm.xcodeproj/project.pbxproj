@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4040490C1AAB9AF900FAC0E8 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4040490B1AAB9AF900FAC0E8 /* PlaylistDetailViewController.swift */; };
 		4043BE611AAAA43B00F8EE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4043BE601AAAA43B00F8EE3B /* AppDelegate.swift */; };
-		4043BE631AAAA43B00F8EE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4043BE621AAAA43B00F8EE3B /* ViewController.swift */; };
+		4043BE631AAAA43B00F8EE3B /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4043BE621AAAA43B00F8EE3B /* PlaylistMasterViewController.swift */; };
 		4043BE661AAAA43B00F8EE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4043BE641AAAA43B00F8EE3B /* Main.storyboard */; };
 		4043BE681AAAA43B00F8EE3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4043BE671AAAA43B00F8EE3B /* Images.xcassets */; };
 		4043BE6B1AAAA43B00F8EE3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4043BE691AAAA43B00F8EE3B /* LaunchScreen.xib */; };
@@ -26,10 +27,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4040490B1AAB9AF900FAC0E8 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
 		4043BE5B1AAAA43B00F8EE3B /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4043BE5F1AAAA43B00F8EE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4043BE601AAAA43B00F8EE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4043BE621AAAA43B00F8EE3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4043BE621AAAA43B00F8EE3B /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
 		4043BE651AAAA43B00F8EE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4043BE671AAAA43B00F8EE3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4043BE6A1AAAA43B00F8EE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				4043BE601AAAA43B00F8EE3B /* AppDelegate.swift */,
-				4043BE621AAAA43B00F8EE3B /* ViewController.swift */,
+				4043BE621AAAA43B00F8EE3B /* PlaylistMasterViewController.swift */,
+				4040490B1AAB9AF900FAC0E8 /* PlaylistDetailViewController.swift */,
 				4043BE641AAAA43B00F8EE3B /* Main.storyboard */,
 				4043BE671AAAA43B00F8EE3B /* Images.xcassets */,
 				4043BE691AAAA43B00F8EE3B /* LaunchScreen.xib */,
@@ -212,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4043BE631AAAA43B00F8EE3B /* ViewController.swift in Sources */,
+				4040490C1AAB9AF900FAC0E8 /* PlaylistDetailViewController.swift in Sources */,
+				4043BE631AAAA43B00F8EE3B /* PlaylistMasterViewController.swift in Sources */,
 				4043BE611AAAA43B00F8EE3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +343,7 @@
 				INFOPLIST_FILE = Algorhythm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +354,7 @@
 				INFOPLIST_FILE = Algorhythm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -405,6 +411,7 @@
 				4043BE7C1AAAA43B00F8EE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4043BE7D1AAAA43B00F8EE3B /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +420,7 @@
 				4043BE7F1AAAA43B00F8EE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
