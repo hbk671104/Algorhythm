@@ -11,7 +11,7 @@ import UIKit
 class PlaylistDetailViewController: UIViewController {
 
 	@IBOutlet weak var buttonPressLabel: UILabel!
-	var segueLabelText: String = ""
+	var segueLabelText: String = "ha"
 	
     override func viewDidLoad() {
         super.viewDidLoad()
