@@ -10,15 +10,28 @@ import UIKit
 
 class PlaylistMasterViewController : UIViewController {
 
+	var playlistsArray: [UIImageView] = []
 	@IBOutlet weak var playlistImageView0: UIImageView!
+	@IBOutlet weak var playlistImageView1: UIImageView!
+	@IBOutlet weak var playlistImageView2: UIImageView!
+	@IBOutlet weak var playlistImageView3: UIImageView!
+	@IBOutlet weak var playlistImageView4: UIImageView!
+	@IBOutlet weak var playlistImageView5: UIImageView!	
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
 		
-		let playlist = Playlist(index: 0)
-		playlistImageView0.image = playlist.icon
+		playlistsArray += [playlistImageView0, playlistImageView1, playlistImageView2, playlistImageView3, playlistImageView4, playlistImageView5]
 		
+		for index in 0..<playlistsArray.count {
+			let playlist = Playlist(index: index)
+			let playlistImageView = playlistsArray[index]
+			
+			playlistImageView.image = playlist.icon
+			playlistImageView.backgroundColor = playlist.backgroundColor
+		}
+
 	}
 
 	override func didReceiveMemoryWarning() {
@@ -28,8 +41,13 @@ class PlaylistMasterViewController : UIViewController {
 	
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 		if segue.identifier == "showPlaylistDetailSegue" {
-			let playlistDetailController = segue.destinationViewController as PlaylistDetailViewController
-			playlistDetailController.playlist = Playlist(index: 0)
+			
+			let playlistImageView = sender!.view as UIImageView
+			if let index = find(playlistsArray, playlistImageView) {
+				let playlistDetailController = segue.destinationViewController as PlaylistDetailViewController
+				playlistDetailController.playlist = Playlist(index: index)
+			}
+
 		}
 	}
 
